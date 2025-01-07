@@ -1,0 +1,11 @@
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\bin\Debug\net8.0\Infrastructure.Domain.deps.json
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\bin\Debug\net8.0\Infrastructure.Domain.dll
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\bin\Debug\net8.0\Infrastructure.Domain.pdb
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\obj\Debug\net8.0\Infrastructure.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\obj\Debug\net8.0\Infrastructure.Domain.AssemblyInfoInputs.cache
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\obj\Debug\net8.0\Infrastructure.Domain.AssemblyInfo.cs
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\obj\Debug\net8.0\Infrastructure.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\obj\Debug\net8.0\Infrastructure.Domain.dll
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\obj\Debug\net8.0\refint\Infrastructure.Domain.dll
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\obj\Debug\net8.0\Infrastructure.Domain.pdb
+C:\Users\tarek\source\repos\Al-Saree\Core\Infrastructure.Domain\obj\Debug\net8.0\ref\Infrastructure.Domain.dll

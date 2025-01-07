@@ -1,0 +1,15 @@
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\bin\Debug\net8.0\Inventory.Domain.deps.json
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\bin\Debug\net8.0\Inventory.Domain.dll
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\bin\Debug\net8.0\Inventory.Domain.pdb
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\bin\Debug\net8.0\Infrastructure.Domain.dll
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\bin\Debug\net8.0\Infrastructure.Domain.pdb
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\obj\Debug\net8.0\Inventory.Domain.csproj.AssemblyReference.cache
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\obj\Debug\net8.0\Inventory.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\obj\Debug\net8.0\Inventory.Domain.AssemblyInfoInputs.cache
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\obj\Debug\net8.0\Inventory.Domain.AssemblyInfo.cs
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\obj\Debug\net8.0\Inventory.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\obj\Debug\net8.0\Inventor.69E31387.Up2Date
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\obj\Debug\net8.0\Inventory.Domain.dll
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\obj\Debug\net8.0\refint\Inventory.Domain.dll
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\obj\Debug\net8.0\Inventory.Domain.pdb
+C:\Users\tarek\source\repos\AverroesTest\Domain\Inventory.Domain\obj\Debug\net8.0\ref\Inventory.Domain.dll

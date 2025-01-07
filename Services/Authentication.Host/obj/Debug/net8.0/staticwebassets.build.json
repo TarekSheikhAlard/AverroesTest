@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kbBxR6+Q93njA8DIGB0JYbsY06Lg7vzWgtlhtJ2xmrk=",
+  "Source": "Authentication.Host",
+  "BasePath": "_content/Authentication.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

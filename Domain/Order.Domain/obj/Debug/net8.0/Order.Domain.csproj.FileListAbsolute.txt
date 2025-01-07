@@ -1,0 +1,15 @@
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\bin\Debug\net8.0\Order.Domain.deps.json
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\bin\Debug\net8.0\Order.Domain.dll
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\bin\Debug\net8.0\Order.Domain.pdb
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\bin\Debug\net8.0\Infrastructure.Domain.dll
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\bin\Debug\net8.0\Infrastructure.Domain.pdb
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Order.Domain.csproj.AssemblyReference.cache
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Order.Domain.AssemblyInfoInputs.cache
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Order.Domain.AssemblyInfo.cs
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Order.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Order.Do.5EF8E5B4.Up2Date
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Order.Domain.dll
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\refint\Order.Domain.dll
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Order.Domain.pdb
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\ref\Order.Domain.dll
