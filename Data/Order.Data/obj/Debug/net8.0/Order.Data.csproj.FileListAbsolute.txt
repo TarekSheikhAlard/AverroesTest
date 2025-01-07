@@ -17,3 +17,4 @@ C:\Users\tarek\source\repos\AverroesTest\Data\Order.Data\obj\Debug\net8.0\Order.
 C:\Users\tarek\source\repos\AverroesTest\Data\Order.Data\obj\Debug\net8.0\refint\Order.Data.dll
 C:\Users\tarek\source\repos\AverroesTest\Data\Order.Data\obj\Debug\net8.0\Order.Data.pdb
 C:\Users\tarek\source\repos\AverroesTest\Data\Order.Data\obj\Debug\net8.0\ref\Order.Data.dll
+C:\Users\tarek\source\repos\AverroesTest\Data\Order.Data\obj\Debug\net8.0\Order.Data.sourcelink.json

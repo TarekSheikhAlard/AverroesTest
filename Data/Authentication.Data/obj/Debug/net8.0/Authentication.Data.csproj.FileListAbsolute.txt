@@ -32,3 +32,4 @@ C:\Users\tarek\source\repos\AverroesTest\Data\Authentication.Data\obj\Debug\net8
 C:\Users\tarek\source\repos\AverroesTest\Data\Authentication.Data\obj\Debug\net8.0\refint\Authentication.Data.dll
 C:\Users\tarek\source\repos\AverroesTest\Data\Authentication.Data\obj\Debug\net8.0\Authentication.Data.pdb
 C:\Users\tarek\source\repos\AverroesTest\Data\Authentication.Data\obj\Debug\net8.0\ref\Authentication.Data.dll
+C:\Users\tarek\source\repos\AverroesTest\Data\Authentication.Data\obj\Debug\net8.0\Authentication.Data.sourcelink.json

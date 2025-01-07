@@ -21,3 +21,4 @@ C:\Users\tarek\source\repos\AverroesTest\Application\Order.Application\obj\Debug
 C:\Users\tarek\source\repos\AverroesTest\Application\Order.Application\obj\Debug\net8.0\refint\Order.Application.dll
 C:\Users\tarek\source\repos\AverroesTest\Application\Order.Application\obj\Debug\net8.0\Order.Application.pdb
 C:\Users\tarek\source\repos\AverroesTest\Application\Order.Application\obj\Debug\net8.0\ref\Order.Application.dll
+C:\Users\tarek\source\repos\AverroesTest\Application\Order.Application\obj\Debug\net8.0\Order.Application.sourcelink.json

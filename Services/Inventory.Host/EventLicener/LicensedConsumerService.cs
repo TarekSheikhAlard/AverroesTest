@@ -12,27 +12,27 @@ using System.Text;
 using System.Threading.Tasks;
 using static Sieve.Extensions.MethodInfoExtended;
 using System.Text.Json;
+using Infrastructure.Application.MessageBroker;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 namespace Inventory.Host.InventoryAppService.EventLicener
 {
     public class LicensedConsumerService : BackgroundService
     {
-        private readonly IChannel _channel;
+        private readonly IConnection _connection;
         private readonly RabbitMQSettings _settings;
-
         private readonly IServiceProvider _serviceProvider;
 
 
-        public LicensedConsumerService(IChannel channel, IServiceProvider serviceProvider)
+        public LicensedConsumerService(IConnection connection, IServiceProvider serviceProvider)
         {
-            _channel = channel;
+            _connection = connection;
             _serviceProvider = serviceProvider;
-
         }
-
-
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-                var consumer = new AsyncEventingBasicConsumer(_channel);
+                IChannel channel = await _connection.CreateChannelAsync();
+                await channel.QueueBindAsync(queue: "order", exchange: "inventory_exchange", routingKey: "order.created");
+                var consumer = new AsyncEventingBasicConsumer(channel);
 
 
                 consumer.ReceivedAsync += async (model, ea) =>
@@ -44,14 +44,20 @@ namespace Inventory.Host.InventoryAppService.EventLicener
                     using var scope = _serviceProvider.CreateScope();
                     var inventoryService = scope.ServiceProvider.GetRequiredService<IInventoryAppService>();
                     await inventoryService.ProcessOrder(orderDetails);
-                    await _channel.BasicAckAsync(deliveryTag: ea.DeliveryTag, multiple: false);
+                    await channel.BasicAckAsync(deliveryTag: ea.DeliveryTag, multiple: false);
+                    RabbitMQPublisher _rabbitMQPublisher = scope.ServiceProvider.GetRequiredService<RabbitMQPublisher>();
+                   
+                    _rabbitMQPublisher.Publish("notification.created", "inventory_exchange", orderDetails);
+
+              
+                    
 
 
                 };
 
                 while (!stoppingToken.IsCancellationRequested)
                 { 
-                    await _channel.BasicConsumeAsync(
+                    await channel.BasicConsumeAsync(
                         queue: "order",        
                         autoAck: false,       
                         consumer: consumer

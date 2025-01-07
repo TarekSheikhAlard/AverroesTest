@@ -6,7 +6,6 @@ using Inventory.Data.DbContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Infrastructure.Service;
-using Inventory.Host.Helper;
 using Inventory.Host.InventoryAppService.EventLicener;
 
 

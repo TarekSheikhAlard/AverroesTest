@@ -13,3 +13,4 @@ C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Or
 C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\refint\Order.Domain.dll
 C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Order.Domain.pdb
 C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\ref\Order.Domain.dll
+C:\Users\tarek\source\repos\AverroesTest\Domain\Order.Domain\obj\Debug\net8.0\Order.Domain.sourcelink.json

@@ -32,3 +32,4 @@ C:\Users\tarek\source\repos\AverroesTest\Domain\Authentication.Domain\obj\Debug\
 C:\Users\tarek\source\repos\AverroesTest\Domain\Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.pdb
 C:\Users\tarek\source\repos\AverroesTest\Domain\Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.genruntimeconfig.cache
 C:\Users\tarek\source\repos\AverroesTest\Domain\Authentication.Domain\obj\Debug\net8.0\ref\Authentication.Domain.dll
+C:\Users\tarek\source\repos\AverroesTest\Domain\Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.sourcelink.json

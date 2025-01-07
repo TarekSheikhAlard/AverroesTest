@@ -6,6 +6,7 @@ using Inventory.Application.InventoryAppService.Dtos;
 using Infrastructure.Application.Configuration;
 using RabbitMQ.Client;
 using Inventory.Host.InventoryAppService.EventLicener;
+using Infrastructure.Application.MessageBroker;
 
 namespace Inventory.Host.Helper
 {
@@ -44,12 +45,13 @@ namespace Inventory.Host.Helper
             IChannel channel = await connection.CreateChannelAsync();
 
             await channel.ExchangeDeclareAsync(exchange: "inventory_exchange", type: "direct");
-            await channel.QueueBindAsync(queue: "order", exchange: "inventory_exchange", routingKey: "order.created");
+            await channel.QueueBindAsync(queue: "notification", exchange: "inventory_exchange", routingKey: "notification.created");
 
 
             services.AddSingleton(connection);
             services.AddSingleton(channel);
             services.AddSingleton(settings);
+            services.AddSingleton<RabbitMQPublisher>();
 
 
         }

@@ -32,3 +32,4 @@ C:\Users\tarek\source\repos\AverroesTest\Core\Infrastructure.Application\bin\Deb
 C:\Users\tarek\source\repos\AverroesTest\Core\Infrastructure.Application\bin\Debug\net8.0\Infrastructure.Domain.pdb
 C:\Users\tarek\source\repos\AverroesTest\Core\Infrastructure.Application\obj\Debug\net8.0\Infrastr.81AE772A.Up2Date
 C:\Users\tarek\source\repos\AverroesTest\Core\Infrastructure.Application\obj\Debug\net8.0\ref\Infrastructure.Application.dll
+C:\Users\tarek\source\repos\AverroesTest\Core\Infrastructure.Application\obj\Debug\net8.0\Infrastructure.Application.sourcelink.json

@@ -17,3 +17,4 @@ C:\Users\tarek\source\repos\AverroesTest\Data\Inventory.Data\obj\Debug\net8.0\In
 C:\Users\tarek\source\repos\AverroesTest\Data\Inventory.Data\obj\Debug\net8.0\refint\Inventory.Data.dll
 C:\Users\tarek\source\repos\AverroesTest\Data\Inventory.Data\obj\Debug\net8.0\Inventory.Data.pdb
 C:\Users\tarek\source\repos\AverroesTest\Data\Inventory.Data\obj\Debug\net8.0\ref\Inventory.Data.dll
+C:\Users\tarek\source\repos\AverroesTest\Data\Inventory.Data\obj\Debug\net8.0\Inventory.Data.sourcelink.json

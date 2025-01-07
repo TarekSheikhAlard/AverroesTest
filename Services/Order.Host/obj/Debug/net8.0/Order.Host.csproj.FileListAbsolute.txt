@@ -86,3 +86,4 @@ C:\Users\tarek\source\repos\AverroesTest\Services\Order.Host\bin\Debug\net8.0\Mi
 C:\Users\tarek\source\repos\AverroesTest\Services\Order.Host\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\tarek\source\repos\AverroesTest\Services\Order.Host\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\tarek\source\repos\AverroesTest\Services\Order.Host\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\tarek\source\repos\AverroesTest\Services\Order.Host\obj\Debug\net8.0\Order.Host.sourcelink.json
