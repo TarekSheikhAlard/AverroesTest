@@ -5,8 +5,8 @@ using Sieve.Services;
 using Inventory.Application.InventoryAppService.Dtos;
 using Infrastructure.Application.Configuration;
 using RabbitMQ.Client;
-using Inventory.Host.InventoryAppService.EventLicener;
-using Infrastructure.Application.MessageBroker;
+ using Infrastructure.Application.MessageBroker;
+using Inventory.Application.InventoryAppService.EventListener;
 
 namespace Inventory.Host.Helper
 {
@@ -48,11 +48,23 @@ namespace Inventory.Host.Helper
             await channel.QueueBindAsync(queue: "notification", exchange: "inventory_exchange", routingKey: "notification.created");
 
 
+
             services.AddSingleton(connection);
             services.AddSingleton(channel);
             services.AddSingleton(settings);
             services.AddSingleton<RabbitMQPublisher>();
 
+            services.AddSingleton<InventoryConsumerService>(serviceProvider =>
+            {
+                var inventoryConsumerService = new InventoryConsumerService(
+                    connection,
+                    serviceProvider
+                );
+                Task.Run(async () => await inventoryConsumerService.ExecuteAsync());
+                return inventoryConsumerService;
+            });
+
+ 
 
         }
     }

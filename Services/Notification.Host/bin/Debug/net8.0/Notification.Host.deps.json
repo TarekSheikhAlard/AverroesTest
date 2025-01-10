@@ -9,6 +9,7 @@
       "Notification.Host/1.0.0": {
         "dependencies": {
           "Infrastructure.Service": "1.0.0",
+          "Notification.Application": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -822,6 +823,14 @@
         "runtime": {
           "Infrastructure.Service.dll": {}
         }
+      },
+      "Notification.Application/1.0.0": {
+        "dependencies": {
+          "Infrastructure.Application": "1.0.0"
+        },
+        "runtime": {
+          "Notification.Application.dll": {}
+        }
       }
     }
   },
@@ -1533,6 +1542,11 @@
       "sha512": ""
     },
     "Infrastructure.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Notification.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

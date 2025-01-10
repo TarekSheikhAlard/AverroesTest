@@ -1,6 +1,5 @@
 
 using Inventory.Host.Helper;
-using Inventory.Host.InventoryAppService.EventLicener;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Infrastructure.Service;
@@ -34,8 +33,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddCustomService();
 await builder.Services.AddRabbitMQ(builder.Configuration);
-builder.Services.AddHostedService<LicensedConsumerService>();
-builder.Services.AddSwaggerGen();
+ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 app.ConfigureExceptionHandler();

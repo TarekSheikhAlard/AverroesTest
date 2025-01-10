@@ -2,8 +2,9 @@
 using Sieve.Services;
 using Infrastructure.Application.Configuration;
 using RabbitMQ.Client;
-using Inventory.Host.InventoryAppService.EventLicener;
+
 using Infrastructure.Application.MessageBroker;
+using Notification.Application.EventListener;
 
 namespace Inventory.Host.Helper
 {
@@ -36,10 +37,13 @@ namespace Inventory.Host.Helper
             await channel.QueueDeclareAsync(queue: "notification", durable: true, exclusive: false, autoDelete: false, arguments: null);
             await channel.QueueBindAsync(queue: "notification", exchange: "inventory_exchange", routingKey: "notification.created");
 
+            var notificationConsumer = new NotificationConsumerService(channel);
+            await notificationConsumer.ExecuteAsync();
 
             services.AddSingleton(connection);
             services.AddSingleton(channel);
             services.AddSingleton(settings);
+            services.AddSingleton(notificationConsumer);
 
 
         }

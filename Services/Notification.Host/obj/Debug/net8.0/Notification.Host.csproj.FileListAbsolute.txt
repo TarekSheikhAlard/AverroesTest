@@ -57,3 +57,5 @@ C:\Users\tarek\source\repos\AverroesTest\Services\Notification.Host\obj\Debug\ne
 C:\Users\tarek\source\repos\AverroesTest\Services\Notification.Host\obj\Debug\net8.0\Notification.Host.pdb
 C:\Users\tarek\source\repos\AverroesTest\Services\Notification.Host\obj\Debug\net8.0\Notification.Host.genruntimeconfig.cache
 C:\Users\tarek\source\repos\AverroesTest\Services\Notification.Host\obj\Debug\net8.0\ref\Notification.Host.dll
+C:\Users\tarek\source\repos\AverroesTest\Services\Notification.Host\bin\Debug\net8.0\Notification.Application.dll
+C:\Users\tarek\source\repos\AverroesTest\Services\Notification.Host\bin\Debug\net8.0\Notification.Application.pdb

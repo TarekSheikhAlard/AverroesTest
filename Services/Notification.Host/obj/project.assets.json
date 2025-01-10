@@ -1672,6 +1672,19 @@
         "runtime": {
           "bin/placeholder/Infrastructure.Service.dll": {}
         }
+      },
+      "Notification.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Infrastructure.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Notification.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Notification.Application.dll": {}
+        }
       }
     }
   },
@@ -5387,11 +5400,17 @@
       "type": "project",
       "path": "../../Core/Infrastructure.Service/Infrastructure.Service.csproj",
       "msbuildProject": "../../Core/Infrastructure.Service/Infrastructure.Service.csproj"
+    },
+    "Notification.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Application/NotificationAppService/Notification.Application.csproj",
+      "msbuildProject": "../../Application/NotificationAppService/Notification.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Infrastructure.Service >= 1.0.0",
+      "Notification.Application >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -5428,6 +5447,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\tarek\\source\\repos\\AverroesTest\\Application\\NotificationAppService\\Notification.Application.csproj": {
+              "projectPath": "C:\\Users\\tarek\\source\\repos\\AverroesTest\\Application\\NotificationAppService\\Notification.Application.csproj"
+            },
             "C:\\Users\\tarek\\source\\repos\\AverroesTest\\Core\\Infrastructure.Service\\Infrastructure.Service.csproj": {
               "projectPath": "C:\\Users\\tarek\\source\\repos\\AverroesTest\\Core\\Infrastructure.Service\\Infrastructure.Service.csproj"
             }

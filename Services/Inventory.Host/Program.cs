@@ -6,8 +6,7 @@ using Inventory.Data.DbContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Infrastructure.Service;
-using Inventory.Host.InventoryAppService.EventLicener;
-
+ 
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -43,8 +42,7 @@ builder.Services.AddDbContext<InventoryDbContext>((sp, options) =>
            .LogTo(Console.WriteLine, LogLevel.Information); // Log to console;
 
 });
-builder.Services.AddHostedService<LicensedConsumerService>();
-
+ 
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
