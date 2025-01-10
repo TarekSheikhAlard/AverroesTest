@@ -54,17 +54,23 @@ namespace Inventory.Host.Helper
             services.AddSingleton(settings);
             services.AddSingleton<RabbitMQPublisher>();
 
+            Console.WriteLine("InventoryConsumerService");
+
             services.AddSingleton<InventoryConsumerService>(serviceProvider =>
             {
+                Console.WriteLine("InventoryConsumerService2");
                 var inventoryConsumerService = new InventoryConsumerService(
                     connection,
                     serviceProvider
                 );
                 Task.Run(async () => await inventoryConsumerService.ExecuteAsync());
+
+
                 return inventoryConsumerService;
             });
 
- 
+
+
 
         }
     }
